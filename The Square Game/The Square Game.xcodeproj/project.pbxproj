@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		89FEB6972D0EDCAA00F79BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89FEB67E2D0EDCA900F79BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89FEB6852D0EDCA900F79BD2;
+			remoteInfo = "The Square Game";
+		};
+		89FEB6A12D0EDCAA00F79BD2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 89FEB67E2D0EDCA900F79BD2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 89FEB6852D0EDCA900F79BD2;
+			remoteInfo = "The Square Game";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		89FEB6862D0EDCA900F79BD2 /* The Square Game.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "The Square Game.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FEB6962D0EDCAA00F79BD2 /* The Square GameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Square GameTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		89FEB6A02D0EDCAA00F79BD2 /* The Square GameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Square GameUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		89FEB6882D0EDCA900F79BD2 /* The Square Game */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "The Square Game";
+			sourceTree = "<group>";
+		};
+		89FEB6992D0EDCAA00F79BD2 /* The Square GameTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "The Square GameTests";
+			sourceTree = "<group>";
+		};
+		89FEB6A32D0EDCAA00F79BD2 /* The Square GameUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "The Square GameUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89FEB6832D0EDCA900F79BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FEB6932D0EDCAA00F79BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FEB69D2D0EDCAA00F79BD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		89FEB67D2D0EDCA900F79BD2 = {
+			isa = PBXGroup;
+			children = (
+				89FEB6882D0EDCA900F79BD2 /* The Square Game */,
+				89FEB6992D0EDCAA00F79BD2 /* The Square GameTests */,
+				89FEB6A32D0EDCAA00F79BD2 /* The Square GameUITests */,
+				89FEB6872D0EDCA900F79BD2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		89FEB6872D0EDCA900F79BD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89FEB6862D0EDCA900F79BD2 /* The Square Game.app */,
+				89FEB6962D0EDCAA00F79BD2 /* The Square GameTests.xctest */,
+				89FEB6A02D0EDCAA00F79BD2 /* The Square GameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89FEB6852D0EDCA900F79BD2 /* The Square Game */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FEB6AA2D0EDCAA00F79BD2 /* Build configuration list for PBXNativeTarget "The Square Game" */;
+			buildPhases = (
+				89FEB6822D0EDCA900F79BD2 /* Sources */,
+				89FEB6832D0EDCA900F79BD2 /* Frameworks */,
+				89FEB6842D0EDCA900F79BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				89FEB6882D0EDCA900F79BD2 /* The Square Game */,
+			);
+			name = "The Square Game";
+			packageProductDependencies = (
+			);
+			productName = "The Square Game";
+			productReference = 89FEB6862D0EDCA900F79BD2 /* The Square Game.app */;
+			productType = "com.apple.product-type.application";
+		};
+		89FEB6952D0EDCAA00F79BD2 /* The Square GameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FEB6AD2D0EDCAA00F79BD2 /* Build configuration list for PBXNativeTarget "The Square GameTests" */;
+			buildPhases = (
+				89FEB6922D0EDCAA00F79BD2 /* Sources */,
+				89FEB6932D0EDCAA00F79BD2 /* Frameworks */,
+				89FEB6942D0EDCAA00F79BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89FEB6982D0EDCAA00F79BD2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				89FEB6992D0EDCAA00F79BD2 /* The Square GameTests */,
+			);
+			name = "The Square GameTests";
+			packageProductDependencies = (
+			);
+			productName = "The Square GameTests";
+			productReference = 89FEB6962D0EDCAA00F79BD2 /* The Square GameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		89FEB69F2D0EDCAA00F79BD2 /* The Square GameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89FEB6B02D0EDCAA00F79BD2 /* Build configuration list for PBXNativeTarget "The Square GameUITests" */;
+			buildPhases = (
+				89FEB69C2D0EDCAA00F79BD2 /* Sources */,
+				89FEB69D2D0EDCAA00F79BD2 /* Frameworks */,
+				89FEB69E2D0EDCAA00F79BD2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89FEB6A22D0EDCAA00F79BD2 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				89FEB6A32D0EDCAA00F79BD2 /* The Square GameUITests */,
+			);
+			name = "The Square GameUITests";
+			packageProductDependencies = (
+			);
+			productName = "The Square GameUITests";
+			productReference = 89FEB6A02D0EDCAA00F79BD2 /* The Square GameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		89FEB67E2D0EDCA900F79BD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					89FEB6852D0EDCA900F79BD2 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					89FEB6952D0EDCAA00F79BD2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 89FEB6852D0EDCA900F79BD2;
+					};
+					89FEB69F2D0EDCAA00F79BD2 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 89FEB6852D0EDCA900F79BD2;
+					};
+				};
+			};
+			buildConfigurationList = 89FEB6812D0EDCA900F79BD2 /* Build configuration list for PBXProject "The Square Game" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 89FEB67D2D0EDCA900F79BD2;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 89FEB6872D0EDCA900F79BD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89FEB6852D0EDCA900F79BD2 /* The Square Game */,
+				89FEB6952D0EDCAA00F79BD2 /* The Square GameTests */,
+				89FEB69F2D0EDCAA00F79BD2 /* The Square GameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89FEB6842D0EDCA900F79BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FEB6942D0EDCAA00F79BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FEB69E2D0EDCAA00F79BD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89FEB6822D0EDCA900F79BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FEB6922D0EDCAA00F79BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FEB69C2D0EDCAA00F79BD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		89FEB6982D0EDCAA00F79BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89FEB6852D0EDCA900F79BD2 /* The Square Game */;
+			targetProxy = 89FEB6972D0EDCAA00F79BD2 /* PBXContainerItemProxy */;
+		};
+		89FEB6A22D0EDCAA00F79BD2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 89FEB6852D0EDCA900F79BD2 /* The Square Game */;
+			targetProxy = 89FEB6A12D0EDCAA00F79BD2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		89FEB6A82D0EDCAA00F79BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89FEB6A92D0EDCAA00F79BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		89FEB6AB2D0EDCAA00F79BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Square Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siluni.The-Square-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89FEB6AC2D0EDCAA00F79BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"The Square Game/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siluni.The-Square-Game";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		89FEB6AE2D0EDCAA00F79BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siluni.The-Square-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Square Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Square Game";
+			};
+			name = Debug;
+		};
+		89FEB6AF2D0EDCAA00F79BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siluni.The-Square-GameTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/The Square Game.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/The Square Game";
+			};
+			name = Release;
+		};
+		89FEB6B12D0EDCAA00F79BD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siluni.The-Square-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Square Game";
+			};
+			name = Debug;
+		};
+		89FEB6B22D0EDCAA00F79BD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Siluni.The-Square-GameUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "The Square Game";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89FEB6812D0EDCA900F79BD2 /* Build configuration list for PBXProject "The Square Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FEB6A82D0EDCAA00F79BD2 /* Debug */,
+				89FEB6A92D0EDCAA00F79BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FEB6AA2D0EDCAA00F79BD2 /* Build configuration list for PBXNativeTarget "The Square Game" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FEB6AB2D0EDCAA00F79BD2 /* Debug */,
+				89FEB6AC2D0EDCAA00F79BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FEB6AD2D0EDCAA00F79BD2 /* Build configuration list for PBXNativeTarget "The Square GameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FEB6AE2D0EDCAA00F79BD2 /* Debug */,
+				89FEB6AF2D0EDCAA00F79BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89FEB6B02D0EDCAA00F79BD2 /* Build configuration list for PBXNativeTarget "The Square GameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89FEB6B12D0EDCAA00F79BD2 /* Debug */,
+				89FEB6B22D0EDCAA00F79BD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 89FEB67E2D0EDCA900F79BD2 /* Project object */;
+}
